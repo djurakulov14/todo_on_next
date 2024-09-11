@@ -28,7 +28,7 @@ function FromAdd({dispatch, setVisible}) {
         let data = {
 			title: '',
 			date: '',
-			id: Math.random(),
+			id: Math.round(Math.random()*100000),
 			completed: false,
 		}
     
